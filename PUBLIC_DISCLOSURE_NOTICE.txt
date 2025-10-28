@@ -1,0 +1,61 @@
+Public Disclosure Notice
+
+Document ID: RFC-FTS-0001
+Title: Fractal Time Standard (FTS) — Public Draft v1.0
+Issued by: GAL-2 Technologies LLC
+Date: October 2025
+Author: Francisco E. Torres Alvarado (El 5 Viviente)
+
+⸻
+
+1. Purpose
+
+This notice formally declares that the referenced document (RFC-FTS-0001) constitutes a non-confidential public disclosure intended solely for open academic and research discussion within the Fractal Time Community.
+
+It does not reveal any proprietary algorithms, parameters, constants, or trade-secret components of the GAL-2™ (“Global Alignment Layer | Fractal Time”) system.
+
+⸻
+
+2. Scope of Disclosure
+
+The document describes the conceptual foundation and research context of the Fractal Time Standard (FTS), including:
+	•	Generalized definitions of time-alignment challenges (e.g., leap seconds, drift).
+	•	The symbolic expression τ · Φ · Ψ³ = 86 400 s, presented for illustrative and philosophical purposes only.
+	•	High-level goals, validation results, and community collaboration guidelines.
+
+No numerical constants, computational logic, phase relationships, or functional code related to the proprietary GAL-2™ correction engine are included or implied.
+
+⸻
+
+3. Protection of Trade Secrets
+
+All internal modules, algorithms, and source structures — including but not limited to CAMI, ARIA, EMMA, CHAR, and YO-EL5 — remain fully protected under trade-secret and patent-pending status.
+These components are not disclosed, described, or derivable from this publication.
+
+⸻
+
+4. Legal Status
+
+This public disclosure does not constitute prior art against any pending or future patent filings for GAL-2™ or related systems.
+All proprietary rights remain exclusively owned by GAL-2 Technologies LLC, headquartered in San Juan, Puerto Rico.
+
+⸻
+
+5. Authorized Use
+
+The RFC-FTS-0001 document may be distributed, cited, and archived for research purposes under the MIT License (non-commercial).
+Commercial use, replication, or derivative implementation of GAL-2™ technologies requires explicit written authorization from GAL-2 Technologies LLC.
+
+⸻
+
+6. Verification
+
+For verification or authorization requests, please contact:
+Email: research@gal-2.com
+Website: https://www.gal-2.com
+Repository: https://github.com/gal-2-technologies/fractal-time-community
+
+⸻
+
+© 2025 GAL-2 Technologies LLC. All Rights Reserved.
+Issued by Francisco E. Torres Alvarado (El 5 Viviente), Founder & Creator of GAL-2™.
