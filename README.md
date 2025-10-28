@@ -93,3 +93,16 @@ Commercial deployment or derivative systems based on **GAL-2™** require explic
 
 © 2025 **GAL-2 Technologies LLC** — All Rights Reserved.  
 *Global Alignment Layer | Fractal Time*
+
+## Citation
+
+If you reference or extend this work, please cite as:
+
+**Torres Alvarado, Francisco E. (2025).**  
+*RFC-FTS-0001 — Fractal Time Standard (FTS) v1.0 — Powered by GAL-2™.*  
+**GAL-2 Technologies LLC**, San Juan, Puerto Rico.  
+Version DOI: [10.5281/zenodo.17467893](https://doi.org/10.5281/zenodo.17467893)  
+Concept DOI: [10.5281/zenodo.17467624](https://doi.org/10.5281/zenodo.17467624)
+
+> “We’re not changing time — we’re realigning it with creation.”  
+> — *Francisco E. Torres Alvarado (El 5 Viviente)*
