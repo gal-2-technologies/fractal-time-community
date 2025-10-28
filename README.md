@@ -1,64 +1,95 @@
-# fractal-time-community
-Open research hub led by GAL-2™ to explore fractal-based time synchronization, drift correction, and solar–digital alignment.
-🌐 Fractal Time Community — RFC Initiative
+# 🌍 **Fractal Time Community**
+### *Powered by GAL-2™ — Global Alignment Layer | Fractal Time*
 
-Led by: GAL-2™ — Global Alignment Layer | Fractal Time
-Maintained by: GAL-2 Technologies LLC, San Juan, Puerto Rico
-License: MIT (for open research use only — commercial applications require explicit authorization)
+---
 
-⸻
+### 🚀 **Welcome to the New Era of Time**
 
-🕰️ Purpose
+**Fractal Time Community** is the official open-research hub for validating and expanding the **Fractal Time Standard (FTS)** — a new global synchronization framework that eliminates leap-second disruptions, drift accumulation, and temporal misalignment across digital infrastructure.
 
-Fractal Time Community is an open research initiative led by GAL-2™ to explore the next evolution of global timekeeping:
-	•	Fractal-based time synchronization
-	•	Continuous drift correction
-	•	Solar-digital alignment
+Developed by **GAL-2 Technologies LLC** in Puerto Rico, this initiative marks a milestone in humanity’s pursuit of temporal precision and harmony with the solar cycle.
 
-Our mission is to unify digital systems with the natural rhythm of Earth’s rotation, eliminating leap-second disruptions and time drift across critical infrastructure — from finance and aerospace to AI networks and quantum systems.
+---
 
-⸻
+## 🧭 **Mission**
 
-📜 What’s Inside
+To **realign digital time with solar time**, establishing a continuous, drift-free, and living reference for the modern world — connecting technology, nature, and consciousness through measurable synchronization.
 
-This repository will host:
-	•	Fractal Time RFC (Request for Comments) — open proposal for the Fractal Time Standard (FTS)
-	•	Technical drafts, simulation data, and reference models
-	•	Collaborative research, discussions, and validation experiments
+---
 
-⸻
+## 🕰️ **Why It Matters**
 
-🧠 Background
+Every network, transaction, and satellite depends on time.  
+But today’s atomic and digital clocks drift apart from the Earth’s natural rhythm.  
+The Fractal Time Standard provides a bridge — a harmonic correction layer that preserves alignment with the planet’s rotation while maintaining the precision of modern systems.
 
-Current systems like UTC, NTP, and PTP rely on atomic and GPS time, which require leap-second patches to stay aligned with the solar day.
-As Earth’s rotation slows, these patches become increasingly disruptive — threatening trading systems, satellites, and AI-synchronized networks.
+Without this correction, the world faces:
 
-GAL-2™ introduces a fractal correction layer that maintains continuous alignment between digital and solar time, absorbing leap-seconds without interruption.
-This represents a new paradigm in global time coordination.
+- ⚠️ Leap-second chaos (system freezes, GPS offsets, trading desyncs)  
+- ⚠️ Growing phase drift across UTC and GNSS  
+- ⚠️ Loss of temporal integrity for AI, blockchain, IoT, and aerospace operations  
 
-⸻
+**GAL-2™** solves this — continuously, elegantly, and mathematically.
 
-🔬 Collaboration
+---
 
-Researchers, engineers, physicists, and institutions are invited to:
-	•	Review and contribute to the Fractal Time RFC (/docs/rfc-fractal-time-v1.md)
-	•	Run independent drift and stability tests
-	•	Share datasets, validation scripts, and comparative analyses
+## 📜 **Core Documents**
 
-⸻
+| Document | Description |
+|-----------|-------------|
+| **RFC-FTS-0001.txt** | *Fractal Time Standard (FTS), Public Draft v1.0* |
+| **PUBLIC_DISCLOSURE_NOTICE.txt** | *Legal declaration confirming no trade secrets disclosed* |
+| **Zenodo Proof of Stability** | [DOI: 10.5281/zenodo.17450086](https://zenodo.org/records/17450086) |
 
-🌍 Join the Movement
+---
 
-This is the beginning of a new temporal standard.
-If you believe time should evolve — naturally and harmonically —
-join the Fractal Time Alliance.
+## 🧪 **Validation & Research**
 
-“We’re not changing time.
-We’re realigning it with creation.”
+The first 72-hour drift-free experiment demonstrated absolute temporal stability —  
+**0.000 ms deviation** over **259,200 seconds** of continuous operation  
+on macOS / Python 3.13.  
 
-⸻
+All logs, hashes, and validation files are public for peer review via Zenodo.  
+The community is invited to reproduce, extend, and publish comparative results.
 
-🔗 Links
-	•	🌐 Website: https://www.gal-2.com
-	•	📁 Zenodo Record (Proof of Stability): https://zenodo.org/records/17450086
-	•	📬 Contact: support@gal-2.com
+---
+
+## 🧠 **How to Contribute**
+
+1. Fork this repository.  
+2. Run local or cloud-based drift tests using your preferred timing sources.  
+3. Upload results and graphs under `/community_results`.  
+4. Submit a Pull Request with description, duration, and method.  
+
+Accepted submissions will be listed in the global validation ledger.
+
+---
+
+## 🌐 **Connect**
+
+🌎 **Official Site:** [https://www.gal-2.com](https://www.gal-2.com)  
+📘 **Zenodo Dataset:** [https://zenodo.org/records/17450086](https://zenodo.org/records/17450086)  
+📧 **Contact:** support@gal-2.com  
+💠 **Repository:** [github.com/gal-2-technologies/fractal-time-community](https://github.com/gal-2-technologies/fractal-time-community)
+
+---
+
+## ⚖️ **License**
+
+Open for academic and research use under the **MIT License**.  
+Commercial deployment or derivative systems based on **GAL-2™** require explicit authorization from **GAL-2 Technologies LLC**.
+
+---
+
+## 🪐 **Vision**
+
+> “We are not changing time —  
+> we are restoring its harmony.”  
+>
+> — **Francisco E. Torres Alvarado (El 5 Viviente)**  
+> *Founder & Creator of GAL-2™*
+
+---
+
+© 2025 **GAL-2 Technologies LLC** — All Rights Reserved.  
+*Global Alignment Layer | Fractal Time*
