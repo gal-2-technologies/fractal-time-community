@@ -28,13 +28,12 @@ Modern digital systems depend on UTC, TAI, and GPS references derived from atomi
 These manual interventions cause operational disruptions in financial trading, satellite control, AI synchronization, and distributed networks.
 The upcoming negative leap second (2029) highlights the urgency for a continuous, harmonized model.
 
-⸻
 
-2.	PROBLEM STATEMENT
- .	Leap-second insertions create phase discontinuities in time streams.
- .	Leap smearing is non-standardized, producing inter-system drift.
- .	Digital infrastructure remains detached from solar reality.
- .	No active framework unifies atomic, solar, and fractal time layers coherently.
+    •  PROBLEM STATEMENT
+    •  Leap-second insertions create phase discontinuities in time streams.
+    •  Leap smearing is non-standardized, producing inter-system drift.
+    •  Digital infrastructure remains detached from solar reality.
+    •  No active framework unifies atomic, solar, and fractal time layers coherently.
 
 ⸻
 
