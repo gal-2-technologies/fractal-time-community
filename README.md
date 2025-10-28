@@ -1,6 +1,6 @@
 # 🌍 **Fractal Time Community**
 ### *Powered by GAL-2™ — Global Alignment Layer | Fractal Time*
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17467624.svg)](https://doi.org/10.5281/zenodo.17467624)
 ---
 
 ### 🚀 **Welcome to the New Era of Time**
