@@ -51,7 +51,7 @@ Commercial use, replication, or derivative implementation of GAL-2™ technologi
 6. Verification
 
 For verification or authorization requests, please contact:
-Email: research@gal-2.com
+Email: support@gal-2.com
 Website: https://www.gal-2.com
 Repository: https://github.com/gal-2-technologies/fractal-time-community
 
