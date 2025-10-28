@@ -31,10 +31,10 @@ The upcoming negative leap second (2029) highlights the urgency for a continuous
 ⸻
 
 2.	PROBLEM STATEMENT
-3.	Leap-second insertions create phase discontinuities in time streams.
-4.	Leap smearing is non-standardized, producing inter-system drift.
-5.	Digital infrastructure remains detached from solar reality.
-6.	No active framework unifies atomic, solar, and fractal time layers coherently.
+ .	Leap-second insertions create phase discontinuities in time streams.
+ .	Leap smearing is non-standardized, producing inter-system drift.
+ .	Digital infrastructure remains detached from solar reality.
+ .	No active framework unifies atomic, solar, and fractal time layers coherently.
 
 ⸻
 
