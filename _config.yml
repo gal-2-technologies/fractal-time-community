@@ -1,0 +1,11 @@
+title: Fractal Time Community
+description: Open validation hub powered by GAL-2™ — Global Alignment Layer | Fractal Time
+url: https://gal-2-technologies.github.io
+baseurl: /fractal-time-community
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+minima:
+  skin: classic
+show_excerpts: false
