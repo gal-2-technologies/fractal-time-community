@@ -1,0 +1,29 @@
+name: GAL2 API Uptime Monitor
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # corre cada 6 horas
+  workflow_dispatch:        # permite ejecutarlo manualmente
+
+jobs:
+  check_api_status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check GAL-2 API status
+        run: |
+          echo "Checking GAL-2 API status..."
+          STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" https://api-v2.gal-2.com/status)
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          if [ "$STATUS_CODE" = "200" ]; then
+            STATUS="online"
+          else
+            STATUS="down"
+          fi
+          echo "{\"timestamp\": \"$TIMESTAMP\", \"status\": \"$STATUS\", \"code\": \"$STATUS_CODE\"}" > status.json
+      - name: Commit status file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git commit -m "Update status: $(date -u)" || echo "No changes to commit"
+          git push
