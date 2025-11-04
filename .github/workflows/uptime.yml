@@ -2,36 +2,33 @@ name: GAL2 API Uptime Monitor
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 */6 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   check_api_status:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Check GAL-2 API status
+        id: check
         run: |
-          echo "Checking GAL-2 API status..."
-          STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" https://api-v2.gal-2.com/status)
-          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          if [ "$STATUS_CODE" = "200" ]; then
-            STATUS="online"
-          else
-            STATUS="down"
-          fi
-          echo "{\"timestamp\": \"$TIMESTAMP\", \"status\": \"$STATUS\", \"code\": \"$STATUS_CODE\"}" > status.json
+          URL="https://api-v2.gal-2.com/status"
+          CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL" || true)
+          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          if [ "$CODE" = "200" ]; then STATE="online"; else STATE="down"; fi
+          printf '{"timestamp":"%s","status":"%s","code":"%s"}\n' "$TS" "$STATE" "$CODE" > status.json
+          cat status.json
 
-      - name: Push status file to gh-pages
+      - name: Commit status file to main
         run: |
-          git fetch origin gh-pages
-          git checkout gh-pages
-          mv ../status.json ./status.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add status.json
-          git commit -m "Update GAL-2 API status"
-          git push origin gh-pages
+          git commit -m "Update GAL-2 API status" || echo "No changes to commit"
+          git push origin HEAD:main
