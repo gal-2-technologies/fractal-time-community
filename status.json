@@ -1,1 +1,7 @@
-{"timestamp":"2025-11-04T17:52:20Z","status":"online","code":"200"}
+{
+  "schemaVersion": 1,
+  "label": "GAL-2 API",
+  "message": "online",
+  "color": "brightgreen",
+  "isError": false
+}
