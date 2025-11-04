@@ -1,8 +1,7 @@
 # 🌍 Fractal Time Community
 Powered by **GAL-2™ — Global Alignment Layer | Fractal Time**
 
-**Status:** ![GAL-2 API Status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgal-2-technologies%2Ffractal-time-community%2Fmain%2Fdocs%2Fstatus.json&label=GAL-2%20API&query=%24.status&color=brightgreen)
-
+**Status:** ![uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgal-2-technologies%2Ffractal-time-community%2Fmain%2Fstatus.json)
 ---
 
 ## 📊 Datasets
