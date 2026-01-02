@@ -4,8 +4,20 @@
 
 ### *Powered by GAL-2™ — Global Alignment Layer | Fractal Time*
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17467893.svg)](https://doi.org/10.5281/zenodo.17467893)
+## Public Dataset & Verification
 
----
+The full 7-day Solstice Run dataset is publicly archived and citable.
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.18018704
+
+This dataset includes:
+- 7-day uninterrupted software-only time continuity
+- No GNSS, no atomic clocks, no PTP
+- Raw CSVs, manifests, hashes, and full methodology
+
+Zenodo is the canonical source of record.
+This repository references the dataset without duplicating it.---
 
 ### 🚀 **Welcome to the New Era of Time**
 
