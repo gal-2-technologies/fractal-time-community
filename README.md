@@ -17,7 +17,7 @@ This dataset includes:
 - Raw CSVs, manifests, hashes, and full methodology
 
 Zenodo is the canonical source of record.
-This repository references the dataset without duplicating it.---
+This repository references the dataset without duplicating it.
 
 ### 🚀 **Welcome to the New Era of Time**
 
