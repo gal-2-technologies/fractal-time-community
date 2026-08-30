@@ -4,58 +4,112 @@ Document ID: RFC-FTS-0001
 Title: Fractal Time Standard (FTS) — Public Draft v1.0
 Issued by: GAL-2 Technologies LLC
 Date: October 2025
-Author: Francisco E. Torres Alvarado (El 5 Viviente)
+Author: Francisco E. Torres Alvarado (El 5)
 
 ⸻
 
 1. Purpose
 
-This notice formally declares that the referenced document (RFC-FTS-0001) constitutes a non-confidential public disclosure intended solely for open academic and research discussion within the Fractal Time Community.
+This notice identifies RFC-FTS-0001 as a public, non-confidential disclosure intended for academic, technical, and research discussion within the Fractal Time Community.
 
-It does not reveal any proprietary algorithms, parameters, constants, or trade-secret components of the GAL-2™ (“Global Alignment Layer | Fractal Time”) system.
+The RFC presents public conceptual material concerning the Fractal Time research thesis and does not intentionally disclose the proprietary implementation of the GAL-2™ Protected Core.
+
+Publication of RFC-FTS-0001 does not constitute publication of GAL-2 source code, private production infrastructure, confidential implementation material, or undisclosed proprietary algorithms.
 
 ⸻
 
 2. Scope of Disclosure
 
-The document describes the conceptual foundation and research context of the Fractal Time Standard (FTS), including:
-	•	Generalized definitions of time-alignment challenges (e.g., leap seconds, drift).
-	•	The symbolic expression τ · Φ · Ψ³ = 86 400 s, presented for illustrative and philosophical purposes only.
-	•	High-level goals, validation results, and community collaboration guidelines.
+RFC-FTS-0001 describes public conceptual and research material associated with the Fractal Time Standard (FTS), including:
 
-No numerical constants, computational logic, phase relationships, or functional code related to the proprietary GAL-2™ correction engine are included or implied.
+* generalized discussion of temporal-alignment challenges, including leap-second and drift-related issues;
+* the symbolic expression τ · Φ · Ψ³ = 86 400 s, presented within the conceptual and philosophical framework of the public draft;
+* high-level research goals;
+* public validation references available at the time of publication; and
+* community research and collaboration guidance.
 
-⸻
-
-3. Protection of Trade Secrets
-
-All internal modules, algorithms, and source structures — including but not limited to CAMI, ARIA, EMMA, CHAR, and YO-EL5 — remain fully protected under trade-secret and patent-pending status.
-These components are not disclosed, described, or derivable from this publication.
+The publication does not intentionally disclose the proprietary computational implementation, protected parameters, internal phase relationships, production source code, private constants, credentials, or other confidential implementation material used by the GAL-2 Protected Core.
 
 ⸻
 
-4. Legal Status
+3. Protected Technology and Trade Secrets
 
-This public disclosure does not constitute prior art against any pending or future patent filings for GAL-2™ or related systems.
-All proprietary rights remain exclusively owned by GAL-2 Technologies LLC, headquartered in San Juan, Puerto Rico.
+The proprietary GAL-2 Protected Core and associated internal implementation remain protected intellectual property of GAL-2 Technologies LLC.
+
+Internal modules and implementation structures, including but not limited to CAMI, ARIA, EMMA, CHAR, and YO-EL5, are not published as source code or implementation specifications in RFC-FTS-0001.
+
+Nothing in this public disclosure should be interpreted as granting access to, ownership of, or a license to undisclosed trade secrets, proprietary algorithms, protected source code, or confidential implementation material.
+
+This notice does not make a technical claim that protected implementation details could never be independently inferred or developed. It states the disclosure boundary intended by GAL-2 Technologies LLC.
+
+⸻
+
+4. Intellectual Property and Patent Status
+
+RFC-FTS-0001 is a public disclosure of the material expressly contained within that document.
+
+All rights in GAL-2 intellectual property not expressly licensed or disclosed remain reserved by GAL-2 Technologies LLC, including applicable rights relating to trademarks, patents or patent applications, trade secrets, proprietary algorithms, protected source code, and the GAL-2 Protected Core.
+
+Nothing in this notice should be interpreted as a legal determination regarding the prior-art effect of RFC-FTS-0001 on any particular patent claim, patent application, jurisdiction, or filing date.
+
+Patent rights and the effect of public disclosure are governed by applicable law and the specific facts and filing history of each application.
 
 ⸻
 
 5. Authorized Use
 
-The RFC-FTS-0001 document may be distributed, cited, and archived for research purposes under the MIT License (non-commercial).
-Commercial use, replication, or derivative implementation of GAL-2™ technologies requires explicit written authorization from GAL-2 Technologies LLC.
+RFC-FTS-0001 and other repository materials may be used only according to the license expressly applicable to those materials.
+
+Where material is expressly distributed under the MIT License, the terms of the MIT License govern that material.
+
+The MIT License applies only to material actually included in the repository and expressly covered by that license.
+
+No license is granted by RFC-FTS-0001 or this notice to:
+
+* GAL-2™ trademarks;
+* patents or patent applications;
+* trade secrets;
+* the GAL-2 Protected Core;
+* the proprietary Fractal Time formula or computational implementation;
+* proprietary algorithms not expressly published;
+* GAL-2 Node software not expressly distributed under the applicable repository license;
+* production GAL-2 services or infrastructure; or
+* other intellectual property not expressly included in the licensed material.
+
+Commercial use of material actually licensed under MIT is governed by the MIT License. Commercial deployment, licensing, integration, or use of separate GAL-2 products, services, protected technology, or proprietary implementation may require separate authorization or commercial terms from GAL-2 Technologies LLC.
 
 ⸻
 
-6. Verification
+6. Relationship to Current GAL-2 Architecture
 
-For verification or authorization requests, please contact:
+RFC-FTS-0001 preserves an early public research description of the Fractal Time thesis.
+
+The current GAL-2 implementation separates the protected mathematical engine from the application-facing operational surfaces:
+
+Reference inputs → Protected Core → GAL-2 Time → GAL-2 API → GAL-2 Node → Time Contract → enrolled application
+
+The Protected Core creates GAL-2 Time.
+The GAL-2 API delivers GAL-2 Time.
+GAL-2 Node makes GAL-2 Time locally consumable.
+The Time Contract governs whether an enrolled application should consume it.
+
+The proprietary Protected Core and Fractal Time implementation are not disclosed by RFC-FTS-0001.
+
+Current product architecture, documentation, and validation materials may therefore evolve beyond the terminology and implementation status reflected in the October 2025 public draft.
+
+⸻
+
+7. Verification and Contact
+
+For verification, licensing, research collaboration, or authorization requests:
+
 Email: support@gal-2.com
 Website: https://www.gal-2.com
 Repository: https://github.com/gal-2-technologies/fractal-time-community
 
 ⸻
 
-© 2025 GAL-2 Technologies LLC. All Rights Reserved.
-Issued by Francisco E. Torres Alvarado (El 5 Viviente), Founder & Creator of GAL-2™.
+© 2025–2026 GAL-2 Technologies LLC. All Rights Reserved.
+
+Issued by Francisco E. Torres Alvarado (El 5)
+Founder & Creator of GAL-2™
